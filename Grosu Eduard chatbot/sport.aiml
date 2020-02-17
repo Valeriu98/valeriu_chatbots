@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<topic name = "Cristi">
+  <category>
+      <pattern>*</pattern>
+      <template>
+        Te pot ajuta :D
+        </template>
+  </category>   
+
+  <category>
+      <pattern>cine e cel mai cunoscut fotbalist roman</pattern>
+      <template>
+          Gheorghe Hagi sau mai e cunoscut drept "Regele"
+      </template>
+  </category>
+    <category>
+      <pattern>cel mai cunoscut fotbalist roman</pattern>
+      <template>
+          Gheorghe Hagi sau mai e cunoscut drept "Regele"
+      </template>
+  </category>
+  <category>
+      <pattern>cine e Gheorghe Hagi</pattern>
+      <template>
+          Gheorghe Hagi este un fost fotbalist român, considerat unul dintre cei mai buni mijlocași ofensivi în Europa anilor '80 și '90 și cel mai mare fotbalist român din toate timpurile. Fanii lui Galatasaray l-au numit "Comandante" și românii l-au numit "Regele".
+      </template>
+  </category>
+  <category>
+      <pattern>cine e hagi</pattern>
+      <template>
+          Gheorghe Hagi este un fost fotbalist român, considerat unul dintre cei mai buni mijlocași ofensivi în Europa anilor '80 și '90 și cel mai mare fotbalist român din toate timpurile. Fanii lui Galatasaray l-au numit "Comandante" și românii l-au numit "Regele".
+      </template>
+  </category>
+  <category>
+      <pattern>ce sporturi iti plac</pattern>
+      <template>
+          Mie imi place fotbalul si baschetul :D
+      </template>
+  </category>
+  <category>
+      <pattern>cel mai inalt baschetbalist</pattern>
+      <template>Gheorghe Dumitru Mureșan este cel mai intalt baschetbalist :D</template>
+  </category>
+    <category>
+      <pattern>cine e cel mai inalt baschetbalist</pattern>
+      <template>Gheorghe Dumitru Mureșan este cel mai intalt baschetbalist :D</template>
+  </category>
+</topic>
+</aiml>

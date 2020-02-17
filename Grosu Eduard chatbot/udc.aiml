@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+    <pattern>*</pattern>
+    <template>
+	Poti sa imi spui ce nelamurire ai ?
+    </template>
+    </category>
+      <category>
+      <pattern>Eu sunt *</pattern>
+      <template>
+         Buna <set name = "username"><set name="state"><set name="topic"><star/></set></set></set>! 
+<condition name = "state" value = "Edi">
+                     <random>
+        <li>Ce categorii de filme iti plac?</li>
+        <li>La ce cinema te duci cel mai des?</li>
+        </random>
+</condition>
+<condition name = "state" value = "Cristi">
+                     <random>
+        <li>Stii cine e cel mai inalt baschetbalist?</li>
+        <li>Stii cine e numit Regele?</li>
+        </random>
+</condition>
+<condition name = "state" value = "Razvan">
+      <random>
+        <li>Ce genuri de muzica asculti?</li>
+        <li>Te duci la concerte?</li>
+        </random>
+</condition>
+      </template>  
+   </category> 
+    <category>
+    <pattern>buna ziua</pattern>
+    <template>Buna ziua! Eu sunt Eduard! Pe tine cum te cheama ? :D </template>
+  </category>
+    <category>
+    <pattern>buna</pattern>
+    <template>Buna ziua! Eu sunt Eduard! Pe tine cum te cheama ? :D </template>
+  </category>
+    <category>
+    <pattern>salut</pattern>
+    <template>Buna ziua! Eu sunt Eduard! Pe tine cum te cheama ? :D </template>
+  </category>
+    <category>
+      <pattern>Am o nelamurire</pattern>
+      <template>
+          Desigur, te rog spune in care dintre categoriile de aici se incadreaza: FILM,MUZICA,SPORT.
+      </template>
+  </category>
+    <category>
+      <pattern>Am si eu o intrebare</pattern>
+      <template>
+          Desigur, te rog spune in care dintre categoriile de aici se incadreaza: FILM,MUZICA,SPORT.
+      </template>
+  </category>
+
+
+
+  
+    <category>
+      <pattern>la revedere</pattern>
+      <template>
+          La revedere <get name = "username"/> !
+      </template>
+  </category>
+    <category>
+      <pattern>pa</pattern>
+      <template>
+         O zi faina <get name = "username"/> !
+      </template>
+  </category>
+    <category>
+      <pattern>o zi buna</pattern>
+      <template>
+          O zi buna <get name = "username"/> !
+      </template>
+  </category>
+  
+</aiml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<topic name = "Razvan">
+  <category>
+      <pattern>*</pattern>
+      <template>
+       <random>
+        <li>Ce genuri de muzica asculti?</li>
+        <li>Te duci la concerte?</li>
+        </random>
+        </template>
+  </category>   
+
+  <category>
+      <pattern>DA</pattern>
+      <template>
+          Fain! In aceasta vara sunt anuntate o gramada de concerte si nu ar trebuii sa le ratezi 
+      </template>
+  </category>
+  <category>
+      <pattern>NU</pattern>
+      <template>
+          Nu e tarziu sa te duci sa vezi cum e atmosfera de la un concert si sa-ti faci o parere  
+      </template>
+  </category>
+  <category>
+      <pattern>rock</pattern>
+      <template>
+          Super! Iti recomand sa asculti Metallica, AC/DC,Rammstein,Iron Maiden,Guns N Roses,Bucovina,Bon Jovi si multi altii
+      </template>
+  </category>
+  <category>
+      <pattern>rap</pattern>
+      <template>
+          Ooo! Neaparat trebuie sa asculti Eminem, Dr. Dre, Tupac, Spike, Samurai, El Nino, Parazitii, B.U.G Mafia, Post Malone si multi altii
+      </template>
+  </category>
+  <category>
+      <pattern>pop</pattern>
+      <template>
+          ðŸ‘» Iti recomand sa asculti Andra, Rihanna, Michael Jackson, Smiley, Inna,Justin Timberlake, 3 Sud Est si multi altii.
+      </template>
+  </category>
+  <category>
+      <pattern>clasica</pattern>
+      <template>
+          Daca iti place muzica clasica atunci, nu trebuie sa ii ratezi pe WOLFGANG AMADEUS MOZART, LUDWIG VAN BEETHOVEN, GIUSEPPE VERDI, FREDERIC  CHOPIN, ANTONIO  VIVALDI si multi altii
+      </template>
+  </category>
+  <category>
+      <pattern>trap</pattern>
+      <template>
+          Iti recomand sa asculti Drake, Migos, Future, 21 Savage, Lil Pump si multi altii
+      </template>
+  </category>
+  <category>
+      <pattern>electronica</pattern>
+      <template>
+          Ooo! Super, atunci trebuie neaparat sa asculti Steave Aoki, Armin van Buuren, The Prodigy, Tiësto, Subcarpați, Depeche Mode, Skrillex, Daft Punk, Avicii, Afrojack, David Guetta si multi altii
+      </template>
+  </category>
+  <category>
+      <pattern>populara</pattern>
+      <template>
+          Daca esti fan inrait atunci trebuie sa asculti neaparat Maria Dragomiroiu, Niculina Stoican, Irina Loghin, Aurel Tămaș, Benone Sinulescu, Laura Lavric, Tudor Gheorghe, Ion Dolănescu si multi altii
+      </template>
+  </category>
+  <category>
+      <pattern>reggae</pattern>
+      <template>
+          Iti recomand sa asculti Bob Marley,Jimmy Cliff,El Negro si multi altii 
+      </template>
+  </category>
+  <category>
+      <pattern>ce genuri de muzica stii</pattern>
+      <template>
+          Pot sa iti recomand filme din categoriile: Rock, Rap, Pop, Clasica, Trap, Electronica, Populara, Reggae.
+      </template>
+  </category>
+</topic>
+</aiml>
